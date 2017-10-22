@@ -402,11 +402,12 @@ html {
     pointer-events: none;
     cursor: default; }
   .hamburger-wrap {
-    height: 17px;
+    height: 25px;
     width: 50px;
     position: relative;
     display: inline-block;
-    z-index: 6002; }
+    z-index: 6002;
+    margin-top: 12px; }
   .logo-wrap {
     width: 140px;
     display: inline-block;
