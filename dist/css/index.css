@@ -17,7 +17,9 @@ a {
 
 body {
   background: white;
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 0;
+}
 
 html {
   overflow: auto; }
