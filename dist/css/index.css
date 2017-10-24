@@ -2532,8 +2532,12 @@ html {
     right: 0;
     background: white; }
   .footer-arrowhome-wrap {
-    width: 18px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px 4px 0 4px;
     margin: 0 auto;
+    cursor: pointer;
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg); }
   .footer-content-wrap {
@@ -2692,8 +2696,10 @@ html {
     left: 0;
     right: 0; }
   .footer-arrowhome-wrap {
-    width: 35px;
-    margin-top: 5px; }
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 0 10px; }
   .footer-content-wrap {
     width: 400px;
     margin-left: 110px; }
@@ -2750,8 +2756,7 @@ html {
     left: 0;
     right: 0; }
   .footer-arrowhome-wrap {
-    width: 40px;
-    margin-top: 5px; }
+    padding: 15px 10px 0 10px; }
   .footer-content-wrap {
     width: 536px;
     margin-left: 110px; }
@@ -2808,8 +2813,7 @@ html {
     left: 0;
     right: 0; }
   .footer-arrowhome-wrap {
-    width: 51px;
-    margin-top: 5px; }
+    padding: 20px 15px 0 15px; }
   .footer-content-wrap {
     width: 730px;
     margin-left: 110px; }
