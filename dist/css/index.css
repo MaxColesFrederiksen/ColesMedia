@@ -22,6 +22,78 @@ body {
 html {
   overflow: auto; }
 
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../font/brandon_thin-webfont.woff2") format("woff2"), url("../font/brandon_thin-webfont.woff") format("woff");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../font/brandon_thin_it-webfont.woff2") format("woff2"), url("../font/brandon_thin_it-webfont.woff") format("woff");
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../font/brandon_reg-webfont.woff2") format("woff2"), url("../font/brandon_reg-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../font/brandon_reg_it-webfont.woff2") format("woff2"), url("../font/brandon_reg_it-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../font/brandon_med-webfont.woff2") format("woff2"), url("../font/brandon_med-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../font/brandon_med_it-webfont.woff2") format("woff2"), url("../font/brandon_med_it-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../font/brandon_light-webfont.woff2") format("woff2"), url("../font/brandon_light-webfont.woff") format("woff");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../font/brandon_light_it-webfont.woff2") format("woff2"), url("../font/brandon_light_it-webfont.woff") format("woff");
+  font-weight: 200;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../font/brandon_blk-webfont.woff2") format("woff2"), url("../font/brandon_blk-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../font/brandon_blk_it-webfont.woff2") format("woff2"), url("../font/brandon_blk_it-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../font/brandon_bld-webfont.woff2") format("woff2"), url("../font/brandon_bld-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: 500; }
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url("../font/brandon_bld_it-webfont.woff2") format("woff2"), url("../font/brandon_bld_it-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: italic; }
+
 @media only screen and (min-width: 320px) {
   .services-title-wrap {
     max-width: 255px;
@@ -52,6 +124,7 @@ html {
   .services-title-h1 {
     color: #303030;
     font-size: 24px;
+    font-weight: 500;
     position: relative;
     left: 20px;
     opacity: 0; }
@@ -75,6 +148,7 @@ html {
   .about-title-h1 {
     color: white;
     font-size: 24px;
+    font-weight: 500;
     position: relative;
     right: 20px;
     opacity: 0; }
@@ -107,6 +181,7 @@ html {
   .projects-title-h1 {
     color: #303030;
     font-size: 24px;
+    font-weight: 500;
     position: relative;
     left: 20px;
     opacity: 0; }
@@ -139,6 +214,7 @@ html {
   .contact-title-h1 {
     color: #303030;
     font-size: 20px;
+    font-weight: 500;
     position: relative;
     right: 20px;
     opacity: 0; }
@@ -532,7 +608,7 @@ html {
     display: inline-block;
     color: #303030;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     opacity: 0.8; }
     .nav-span:hover {
       opacity: 1; }
@@ -569,8 +645,7 @@ html {
   .nav-span {
     display: inline-block;
     color: #303030;
-    font-size: 18px;
-    font-weight: 500; }
+    font-size: 18px; }
   .hamburger-wrap {
     display: none; }
   .animate-nav {
@@ -672,8 +747,6 @@ html {
     height: 100%;
     overflow: hidden;
     background: #9B8F78; }
-  .fullWidth {
-    width: 100%; }
   .name-box-wrap {
     width: 245px;
     height: 32px;
@@ -686,19 +759,20 @@ html {
     height: 100%;
     overflow: hidden;
     background: #303030; }
-  .name-h1 {
+  h1.name-h1 {
     width: 235px;
     margin: 5px 0 5px 0;
     font-size: 23px;
     text-align: right;
+    font-weight: 500;
     color: white; }
   .slogan-wrap {
     margin-top: 70px;
     width: 180px; }
-  .slogan-h2 {
+  h2.slogan-h2 {
     width: 100%;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 200;
     color: white;
     text-align: center; }
   .white-box-wrap-hero {
@@ -754,19 +828,20 @@ html {
     width: 25px;
     bottom: 5px;
     right: 82.5px; }
-  .name-h1 {
+  h1.name-h1 {
     width: 255px;
     margin: 5px 0 5px 0;
     font-size: 25px;
     text-align: right;
+    font-weight: 500;
     color: white; }
   .slogan-wrap {
     margin-top: 70px;
     width: 195px; }
-  .slogan-h2 {
+  h2.slogan-h2 {
     width: 100%;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 200;
     color: white;
     text-align: center; } }
 
@@ -794,19 +869,20 @@ html {
     width: 50px;
     bottom: 25px;
     right: 190px; }
-  .name-h1 {
+  h1.name-h1 {
     width: 515px;
     margin: 5px 0 5px 0;
     font-size: 50px;
     text-align: right;
+    font-weight: 500;
     color: white; }
   .slogan-wrap {
     margin-top: 130px;
     width: 390px; }
-  .slogan-h2 {
+  h2.slogan-h2 {
     width: 100%;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 200;
     color: white;
     text-align: center; } }
 
@@ -837,12 +913,14 @@ html {
   h1.name-h1 {
     width: 710px;
     margin: 5px 0 5px 0;
+    font-weight: 500;
     font-size: 70px; }
   .slogan-wrap {
     margin-top: 185px;
     width: 490px; }
   h2.slogan-h2 {
-    font-size: 40px; } }
+    font-size: 40px;
+    font-weight: 200; } }
 
 @media only screen and (min-width: 1440px) {
   .hero-s {
@@ -909,7 +987,7 @@ html {
   blockquote.quote {
     display: inline-block;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     font-style: italic;
     color: #303030;
     height: 36px;
@@ -921,12 +999,12 @@ html {
   .quoter-person {
     display: inline-block;
     font-size: 9px;
-    font-weight: 400;
+    font-weight: 300;
     color: #535353;
     margin: 0; }
   .quoter-company {
     font-size: 9px;
-    font-weight: 300;
+    font-weight: 200;
     color: #A6A6A6;
     margin: 0; } }
 
@@ -976,7 +1054,6 @@ html {
     position: relative; }
   blockquote.quote {
     font-size: 40px;
-    font-weight: 400;
     margin: -10px 0 45px 0;
     height: 90px;
     line-height: 57px; }
@@ -999,7 +1076,6 @@ html {
     position: relative; }
   blockquote.quote {
     font-size: 45px;
-    font-weight: 400;
     margin: -15px 0 95px 0;
     height: 90px;
     line-height: 78px; }
@@ -1092,14 +1168,14 @@ html {
     width: 120px;
     color: #303030;
     font-size: 9px;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 13px; }
   .code-h2 {
     width: 55px;
     padding: 2px 8px 2px 8px;
     margin: 0;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     color: white;
     background: #303030; }
   .design-h2 {
@@ -1107,7 +1183,7 @@ html {
     padding: 4px 8px 4px 8px;
     margin: 0;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     color: white;
     background: #303030; }
   .contact-wrap-code {
@@ -1132,7 +1208,7 @@ html {
     display: inline-block;
     font-size: 7px;
     color: #303030;
-    font-weight: 600; } }
+    font-weight: 400; } }
 
 @media only screen and (min-width: 375px) {
   .bg-box-design, .bg-box-code {
@@ -1190,12 +1266,10 @@ html {
     line-height: 16px; }
   .code-h2 {
     width: 60px;
-    font-size: 20px;
-    font-weight: 400; }
+    font-size: 20px; }
   .design-h2 {
     width: 70px;
-    font-size: 20px;
-    font-weight: 400; }
+    font-size: 20px; }
   .contact-span-design, .contact-span-code {
     font-size: 8px; }
   .contact-wrap-code {
@@ -1240,12 +1314,10 @@ html {
     line-height: 26px; }
   .code-h2 {
     width: 93px;
-    font-size: 34px;
-    font-weight: 400; }
+    font-size: 34px; }
   .design-h2 {
     width: 115px;
-    font-size: 34px;
-    font-weight: 400; }
+    font-size: 34px; }
   .contact-span-design, .contact-span-code {
     font-size: 12px; }
   .contact-wrap-code {
@@ -1294,12 +1366,10 @@ html {
     line-height: 34px; }
   h2.code-h2 {
     width: 107px;
-    font-size: 40px;
-    font-weight: 400; }
+    font-size: 40px; }
   h2.design-h2 {
     width: 130px;
     font-size: 40px;
-    font-weight: 400;
     padding: 4px 8px 8px 8px; }
   .contact-span-design, .contact-span-code {
     font-size: 14px; }
@@ -1347,12 +1417,10 @@ html {
     line-height: 40px; }
   h2.code-h2 {
     width: 120px;
-    font-size: 46px;
-    font-weight: 400; }
+    font-size: 46px; }
   h2.design-h2 {
     width: 146px;
     font-size: 46px;
-    font-weight: 400;
     padding: 4px 8px 8px 8px; }
   .contact-span-design, .contact-span-code {
     font-size: 18px; }
@@ -1401,7 +1469,7 @@ html {
   h2.motto-h2 {
     font-size: 10px;
     color: white;
-    font-weight: 500;
+    font-weight: 300;
     font-style: italic;
     padding: 5px 0 5px 25px;
     margin: 0; }
@@ -1409,7 +1477,7 @@ html {
     width: 160px;
     font-size: 7.5px;
     color: #303030;
-    font-weight: 100;
+    font-weight: 200;
     line-height: 11px; }
   a.contact-wrap-about {
     height: 25px;
@@ -1423,7 +1491,7 @@ html {
     display: inline-block;
     font-size: 7px;
     color: white;
-    font-weight: 600; } }
+    font-weight: 500; } }
 
 @media only screen and (min-width: 375px) {
   section.about-s {
@@ -1453,7 +1521,6 @@ html {
   h2.motto-h2 {
     font-size: 10px;
     color: white;
-    font-weight: 500;
     font-style: italic;
     padding: 5px 0 5px 25px;
     margin: 0; }
@@ -1492,7 +1559,6 @@ html {
   h2.motto-h2 {
     font-size: 18px;
     color: white;
-    font-weight: 500;
     font-style: italic;
     line-height: 26px;
     padding: 5px 0 5px 58px;
@@ -1535,7 +1601,6 @@ html {
   h2.motto-h2 {
     font-size: 22px;
     color: white;
-    font-weight: 500;
     line-height: 31px;
     padding: 5px 0 5px 58px;
     margin: 0; }
@@ -1571,9 +1636,8 @@ html {
     top: -20px;
     right: 30px; }
   h2.motto-h2 {
-    font-size: 22px;
+    font-size: 24px;
     color: white;
-    font-weight: 500;
     line-height: 31px;
     padding: 5px 0 5px 80px;
     margin: 0; }
@@ -1583,7 +1647,7 @@ html {
     top: -30px; }
   p.about-p {
     width: 488px;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 34px; }
   .about-white-box {
     width: 688px;
@@ -1670,12 +1734,12 @@ html {
     margin: 0 0 0 10px; }
   h2.xkout-h2 {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 300;
     color: #303030;
     margin: 0px 0 8px 0; }
   p.xkout-p {
     font-size: 9px;
-    font-weight: 300;
+    font-weight: 200;
     color: #303030;
     line-height: 13px;
     margin: 0 0 5px;
@@ -1686,7 +1750,7 @@ html {
   span.xkout-visit-span {
     display: inline-block;
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 300;
     color: #9B8F78; }
   section.projects-s {
     max-width: 1000px;
@@ -1704,12 +1768,12 @@ html {
     margin: 0 0 0 10px; }
   h2.wikipedia-h2 {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 300;
     color: #303030;
     margin: 0px 0 8px 0; }
   p.wikipedia-p {
     font-size: 9px;
-    font-weight: 300;
+    font-weight: 200;
     color: #303030;
     line-height: 13px;
     margin: 0 0 5px;
@@ -1720,7 +1784,7 @@ html {
   span.wikipedia-visit-span {
     display: inline-block;
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 300;
     color: #9B8F78; } }
 
 @media only screen and (min-width: 375px) {
@@ -1985,7 +2049,7 @@ html {
   h1.getintouch-h1 {
     width: 90px;
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     color: white;
     margin: 8px 0 8px 0;
     text-align: center; }
@@ -1994,7 +2058,7 @@ html {
     width: 240px;
     margin: 0 auto;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 18px;
     color: white; }
   .getintouch-white-box {
@@ -2197,7 +2261,7 @@ html {
     padding: 1px;
     font-family: 'Brandon Grotesque' !important;
     font-size: 8px;
-    font-weight: 500;
+    font-weight: 300;
     color: #9B8F78;
     background: transparent; }
   .social-icons-wrap {
@@ -2241,7 +2305,7 @@ html {
     display: inline-block;
     font-family: 'Brandon Grotesque';
     font-size: 10px;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
     color: white; }
   .phone-wrap {
@@ -2266,7 +2330,7 @@ html {
     display: inline-block;
     font-family: 'Brandon Grotesque';
     font-size: 10px;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
     color: white; }
   .errorAlert {
@@ -2524,7 +2588,7 @@ html {
   p.footer-p {
     font-family: 'Brandon Grotesque';
     font-size: 6px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 8px;
     text-align: left;
     color: #BFBFBF; }
@@ -2546,7 +2610,7 @@ html {
     width: auto; }
   span.footer-link-span {
     font-size: 8px;
-    font-weight: 400;
+    font-weight: 300;
     color: #9B8F78; }
   .footer-arrow-wrap {
     display: inline-block;
@@ -2584,14 +2648,14 @@ html {
   a.footer-email-wrap > span, a.footer-phone-wrap > span {
     display: block;
     font-size: 8px;
-    font-weight: 600;
+    font-weight: 300;
     color: #DDDDDD;
     height: 100%; }
   .footer-copyright-wrap {
     text-align: center; }
   h3.copyright-h3 {
     font-size: 6px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 8px;
     color: #9B8F78; }
   .footer-portrait-social-wrap {
