@@ -2870,6 +2870,8 @@ html {
 @media only screen and (min-width: 320px) {
   .span-italic {
     font-style: italic; }
+  input.gotcha {
+    display: none; }
   .inactive {
     pointer-events: none;
     cursor: default; }
