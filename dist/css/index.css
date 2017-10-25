@@ -3089,13 +3089,22 @@ html {
     width: 30px;
     margin: 10px auto 0 auto; } }
 
+@media only screen and (min-width: 1024px) {
+  .popup-wrap {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    left: 0;
+    top: 180px;
+    bottom: 0; } }
+
 @media only screen and (min-width: 1440px) {
   .popup-wrap {
     position: absolute;
     z-index: -1;
     right: 0;
     left: 0;
-    top: 100px;
+    top: 220px;
     bottom: 0;
     width: 525px;
     margin: 0 auto; }
