@@ -2873,7 +2873,7 @@ html {
     cursor: default; }
   .popup-wrap {
     position: absolute;
-    z-index: 5;
+    z-index: 0;
     right: 0;
     left: 0;
     top: 100px;
