@@ -2208,7 +2208,8 @@ html {
 
 @media only screen and (min-width: 320px) {
   section.contact-s {
-    padding: 40px 0 40px 0; }
+    padding: 40px 0 40px 0;
+    position: relative; }
   .contact-content-wrap {
     width: 110px;
     margin: 0 auto; }
@@ -2865,6 +2866,96 @@ html {
   .footer-portrait-wrap {
     width: 140px;
     height: 140px; } }
+
+@media only screen and (min-width: 320px) {
+  .inactive {
+    pointer-events: none;
+    cursor: default; }
+  .popup-wrap {
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    left: 0;
+    top: 100px;
+    bottom: 0;
+    width: 240px;
+    margin: 0 auto; }
+  .popup-content-wrap {
+    position: relative;
+    width: 0%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .popup-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #9B8F78; }
+  .popup-title-wrap {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    margin: 0 0 -15px 20px;
+    z-index: 40;
+    overflow: hidden; }
+  .popup-title-outer {
+    display: block;
+    overflow: hidden;
+    background: #303030;
+    width: 0%;
+    height: 100%; }
+  .popup-title-h1 {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 40px;
+    margin: 0px 0 0 10px; }
+  .popup-p-wrap {
+    position: relative;
+    margin: 10px 0 25px 20px;
+    width: 155px; }
+  .popup-p {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 300;
+    color: white; }
+  .popup-whitebox {
+    width: 45px;
+    height: 35px;
+    position: absolute;
+    overflow: hidden;
+    right: 0px;
+    bottom: 0; }
+  .popup-whitebox-content {
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    background: white;
+    overflow: hidden; }
+  .popup-x-wrap {
+    position: relative;
+    display: block;
+    width: 20px;
+    margin: 10px auto 0 auto; } }
 
 @media only screen and (min-width: 320px) {
   body {
