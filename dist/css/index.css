@@ -2581,6 +2581,7 @@ html {
         -ms-flex-pack: center;
             justify-content: center; }
   li.footer-li-services, li.footer-li-about, li.footer-li-projects {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
