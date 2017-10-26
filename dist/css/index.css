@@ -2581,7 +2581,7 @@ html {
         -ms-flex-pack: center;
             justify-content: center; }
   li.footer-li-services, li.footer-li-about, li.footer-li-projects {
-    width: 100%;
+    width: 120px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2715,6 +2715,21 @@ html {
     width: 204px;
     margin: 5px 0 0 0;
     padding: 0; }
+  li.footer-li-services, li.footer-li-about, li.footer-li-projects {
+    width: 204px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   li.footer-li-about, li.footer-li-projects {
     margin-top: 15px; }
   p.footer-p {
@@ -2772,6 +2787,21 @@ html {
     width: 255px;
     margin: 5px 0 0 0;
     padding: 0; }
+  li.footer-li-services, li.footer-li-about, li.footer-li-projects {
+    width: 255px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   li.footer-li-about, li.footer-li-projects {
     margin-top: 25px; }
   p.footer-p {
@@ -2829,6 +2859,21 @@ html {
     width: 350px;
     margin: 10px 0 0 0;
     padding: 0; }
+  li.footer-li-services, li.footer-li-about, li.footer-li-projects {
+    width: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   li.footer-li-about, li.footer-li-projects {
     margin-top: 65px; }
   p.footer-p {
