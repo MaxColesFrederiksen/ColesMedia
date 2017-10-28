@@ -655,82 +655,6 @@ html {
     color: white; } }
 
 @media only screen and (min-width: 320px) {
-  .sidenav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row nowrap;
-            flex-flow: row nowrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 0%;
-    height: 100%;
-    overflow: hidden;
-    position: fixed;
-    background: white;
-    top: 0;
-    left: -7%;
-    right: 0;
-    z-index: 5000; }
-  .sidenav-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background: white;
-    width: 100%;
-    height: auto;
-    position: static; }
-  .sidenav-menu {
-    width: 150px;
-    margin: 100px 50px 0 0;
-    background: white;
-    position: static; }
-  .sidenav-menu-link {
-    display: block;
-    width: 100%;
-    background: #303030;
-    margin: 20px 0 20px 0;
-    text-align: center; }
-  .sidenav-menu-link > span {
-    display: inline-block;
-    padding: 2px;
-    font-size: 20px;
-    font-weight: 400;
-    color: white;
-    line-height: 30px; } }
-
-@media only screen and (min-width: 375px) {
-  .sidenav-menu {
-    margin: 100px 90px 0 0; } }
-
-@media only screen and (min-width: 414px) {
-  .sidenav-menu {
-    width: 160px;
-    margin: 100px 70px 0 0; }
-  .sidenav-menu-link > span {
-    padding: 3px;
-    font-size: 22px; } }
-
-@media only screen and (min-width: 768px) {
-  .sidenav-menu {
-    width: 225px;
-    margin: 150px 315px 0 0; }
-  .sidenav-menu-link > span {
-    padding: 16px;
-    font-size: 38px; }
-  .sidenav-menu-link {
-    margin: 30px 0 30px 0; } }
-
-@media only screen and (min-width: 320px) {
   .hero-s {
     padding: 30px 0 30px 25px; }
   img.arrow-image-thick {
@@ -955,6 +879,82 @@ html {
     width: 620px; }
   h2.slogan-h2 {
     font-size: 50px; } }
+
+@media only screen and (min-width: 320px) {
+  .sidenav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    background: white;
+    top: 0;
+    left: -7%;
+    right: 0;
+    z-index: 5000; }
+  .sidenav-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: white;
+    width: 100%;
+    height: auto;
+    position: static; }
+  .sidenav-menu {
+    width: 150px;
+    margin: 100px 50px 0 0;
+    background: white;
+    position: static; }
+  .sidenav-menu-link {
+    display: block;
+    width: 100%;
+    background: #303030;
+    margin: 20px 0 20px 0;
+    text-align: center; }
+  .sidenav-menu-link > span {
+    display: inline-block;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    line-height: 30px; } }
+
+@media only screen and (min-width: 375px) {
+  .sidenav-menu {
+    margin: 100px 90px 0 0; } }
+
+@media only screen and (min-width: 414px) {
+  .sidenav-menu {
+    width: 160px;
+    margin: 100px 70px 0 0; }
+  .sidenav-menu-link > span {
+    padding: 3px;
+    font-size: 22px; } }
+
+@media only screen and (min-width: 768px) {
+  .sidenav-menu {
+    width: 225px;
+    margin: 150px 315px 0 0; }
+  .sidenav-menu-link > span {
+    padding: 16px;
+    font-size: 38px; }
+  .sidenav-menu-link {
+    margin: 30px 0 30px 0; } }
 
 @media only screen and (min-width: 320px) {
   section.quote-s {
