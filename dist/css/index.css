@@ -3193,6 +3193,66 @@ html {
     width: 40px;
     margin: 10px auto 0 auto; } }
 
+@media only screen and (min-width: 0px) {
+  .screen-warning-wrap {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999999;
+    background: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: scroll; }
+  .screen-warning-message {
+    max-width: 300px;
+    margin: 0 10px 0 10px; }
+  h1.screen-warning-title {
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    background: #9B8F78;
+    text-align: center;
+    max-width: 150px;
+    margin-bottom: 8px;
+    line-height: 44px; }
+  h2.screen-warning-subtitle {
+    font-size: 16px;
+    font-weight: 300;
+    color: #303030;
+    margin-left: 2px;
+    line-height: 28px; }
+  .viewport-text-wrap {
+    max-width: 200px;
+    text-align: center;
+    margin: 0 auto; }
+  span.current-viewport {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 200;
+    font-style: italic; }
+  span.viewport-width {
+    font-weight: 300;
+    display: inline-block;
+    text-align: center;
+    margin-top: 40px; }
+  .viewport-expander-wrap {
+    width: 100%; } }
+
+@media only screen and (min-width: 320px) {
+  .screen-warning-wrap {
+    display: none; }
+  .screen-warning-message {
+    display: none; }
+  h1.screen-warning-h1 {
+    display: none; } }
+
 @media only screen and (min-width: 320px) {
   body {
     padding-top: 60px; } }

@@ -2,17 +2,57 @@
 <!doctype html>
 <html>
 <head>
-<meta charset=UTF-8>
+<!-- Place this data between the <head> tags of your website -->
+<title>Page Title. Maximum length 60-70 characters</title>
+<meta name="description" content="Page description. No longer than 155 characters." />
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@MaxColesmedia">
+<meta name="twitter:title" content="Web Development & Design | Colesmedia">
+<meta name="twitter:description" content="Max Coles Frederiksen, web developer and designer from Sweden. With a passion for creating websites and applications that are fast, functional and beautiful.">
+<meta name="twitter:creator" content="@MaxColesmedia">
+<-- Twitter Summary card images must be at least 120x120px -->
+<meta name="twitter:image" content="http://www.colesmedia.se/images/stock/code_stock_large.jpeg">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="Web Development & Design | Colesmedia" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.colesmedia.se/" />
+<meta property="og:image" content="http://colesmedia.se/images/me/portrait_cropped_large.jpg" />
+<meta property="og:description" content="Max Coles Frederiksen, web developer and designer from Sweden. With a passion for creating websites and applications that are fast, fun§ctional and beautiful." /> 
+<meta property="og:site_name" content="Colesmedia" />
+<meta property="fb:admins" content="USER_ID"/>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name=viewport content="width=device-width, initial-scale=1.0">
 <meta http-equiv=cache-control content=no-cache>
 <meta http-equiv=expires content=0>
 <meta http-equiv=pragma content=no-cache>
+
 <link rel=stylesheet type="text/css" href="dist/normalize.css">
 <link rel=stylesheet type="text/css" href="dist/css/index.css">
-<title>COLESMEDIA | Web Development & Design</title>
+<title>Web Development & Design | Colesmedia</title>
+ <meta name="description" content="Max Coles Frederiksen, web developer and designer from Sweden. With a passion for creating websites and applications that are fast, functional and beautiful.">
 </head>
 <body>
 <header>
+<div class="screen-warning-wrap">
+<div class="screen-warning-message">
+<h1 class="screen-warning-title">Hey there!</h1>
+<h2 class="screen-warning-subtitle">Unfortunately your screen size is to small to view this website. For optimal experience consider viewing it at 320px and above.</h1>
+
+<div class="viewport-text-wrap">
+<span class="current-viewport">Current viewport: </span>
+<span class="viewport-width"></span>
+</div>
+
+<div class="viewport-expander-wrap">
+<img src="icons/viewport_expander.svg" alt="Mesuares the width of the screen" class="viewport-expander-image">
+</div>
+</div>
+</div>
 <section class=nav-s>
 <nav>
 <a href="#services" class=nav-link>
@@ -28,7 +68,7 @@ ABOUT
 <div class=nav-bg></div>
 </a>
 <a href="#home" class=logo-wrap>
-<img src="icons/logo/logo_large.png" srcset="icons/logo/logo_small.png 500w, icons/logo/logo_medium.png 1000w, icons/logo/logo_large.png 2000w," alt="" class=logo-image>
+<img src="icons/logo/logo_large.png" srcset="icons/logo/logo_small.png 500w, icons/logo/logo_medium.png 1000w, icons/logo/logo_large.png 2000w," alt="Logo with text 'Colesmedia web development & design'" class=logo-image>
 </a>
 <a href="#projects" class=nav-link>
 <span class=nav-span>
@@ -90,8 +130,8 @@ Web Developer & Designer
 </div>
 </div>
 <div class=arrow-wrap-hero>
-<img src="icons/golden-arrow.svg" alt="" class=arrow-image>
-<img src="icons/golden-arrow.svg" alt="" class=arrow-image-thick>
+<img src="icons/golden-arrow.svg" alt="Arrow pointing down" class=arrow-image>
+<img src="icons/golden-arrow.svg" alt="Arrow pointing down" class=arrow-image-thick>
 </div>
 </div>
 </section>
@@ -101,7 +141,7 @@ Web Developer & Designer
 <div class=blockquote-wrap>
 <div class=quote-wrap>
 <div class=quote-icon-wrap>
-<img src="icons/two-quotes.svg" alt="" class=quote-icon-image>
+<img src="icons/two-quotes.svg" alt="Quote icon" class=quote-icon-image>
 </div>
 <blockquote class=quote>
 lorem ipsum, siaok prolm aikes oakkoo!
@@ -129,7 +169,7 @@ The design process involves me listening to your vision and portraying it visual
 </p>
 </div>
 <div class=design-image-wrap>
-<img src="images/stock/sketch_stock_large.jpeg" srcset="images/stock/code_stock_small.jpeg 500w, images/stock/sketch_stock_medium.jpeg 1000w, images/stock/sketch_stock_large.jpeg 2000w" alt="" class="design-image">
+<img src="images/stock/sketch_stock_large.jpeg" srcset="images/stock/code_stock_small.jpeg 500w, images/stock/sketch_stock_medium.jpeg 1000w, images/stock/sketch_stock_large.jpeg 2000w" alt="Sketch or design on paper" class="design-image">
 </div>
 <div class=bg-box-design></div>
 <a href="#contact" class=contact-wrap-design>
@@ -140,7 +180,7 @@ CONTACT
 </div>
 <div class=code-content>
 <div class=code-image-wrap>
-<img src="images/stock/code_stock_large.jpeg" srcset="images/stock/code_stock_small.jpeg 500w, images/stock/code_stock_medium.jpeg 1000w, images/stock/code_stock_large.jpeg 2000w" alt="" class="code-image"> 
+<img src="images/stock/code_stock_large.jpeg" srcset="images/stock/code_stock_small.jpeg 500w, images/stock/code_stock_medium.jpeg 1000w, images/stock/code_stock_large.jpeg 2000w" alt="A man coding/programming on a laptop" class="code-image"> 
 </div>
 <div class=code-text-wrap>
 <h2 class=code-h2>Code</h2>
@@ -165,7 +205,7 @@ CONTACT
 </div>
 <div class=about-content-wrap>
 <div class=portrait-image-wrap>
-<img src="images/me/portrait_cropped_large.jpg" srcset="images/me/portrait_cropped_small.jpg 500w, images/me/portrait_cropped_medium.jpg 1000w, images/me/portrait_cropped_large.jpg 2000w" alt="" class="portrait-image">
+<img src="images/me/portrait_cropped_large.jpg" srcset="images/me/portrait_cropped_small.jpg 500w, images/me/portrait_cropped_medium.jpg 1000w, images/me/portrait_cropped_large.jpg 2000w" alt="Portrait of Max Coles Frederiksen" class="portrait-image">
 </div>
 <div class=about-white-box>
 <div class=motto-wrap>
@@ -208,14 +248,14 @@ Combining playful with professional made this design special. I always strive fo
 VISIT
 </span>
 <i class=xkout-visit-wrap>
-<img src="icons/visit.svg" alt="" class=xkout-redirect-image>
+<img src="icons/visit.svg" alt="Click to visit xkout bioscience project website" class=xkout-redirect-image>
 </i>
 </a>
 </div>
 <div class=xkout-showcase-wrap>
 <div class=xkout-bg></div>
 <div class=xkout-mockup-wrap>
-<img src="images/mockups/xkout_macbook_large.png" srcset="images/mockups/xkout_macbook_small.png 500w, images/mockups/xkout_macbook_medium.png 1000w, images/mockups/xkout_macbook_large.png 2000w" alt="" class="xkout-mockup-image">
+<img src="images/mockups/xkout_macbook_large.png" srcset="images/mockups/xkout_macbook_small.png 500w, images/mockups/xkout_macbook_medium.png 1000w, images/mockups/xkout_macbook_large.png 2000w" alt="Macbook mockup with a screeenshot of xkout bioscience project website." class="xkout-mockup-image">
 </div>
 </div>
 </div>
@@ -232,14 +272,14 @@ A simple web app which acts as a search engine for Wikipedia. It uses the AJAX m
 VISIT
 </span>
 <i class=wikipedia-visit-wrap>
-<img src="icons/visit.svg" alt="" class=wikipedia-redirect-image>
+<img src="icons/visit.svg" alt="Click to visit Wikipedia Fetcher project web application" class=wikipedia-redirect-image>
 </i>
 </a>
 </div>
 <div class=wikipedia-showcase-wrap>
 <div class=wikipedia-bg></div>
 <div class=wikipedia-mockup-wrap>
-<img src="images/mockups/wikipedia_macbook_large.png" srcset="images/mockups/wikipedia_macbook_small.png 500w, images/mockups/wikipedia_macbook_medium.png 1000w, images/mockups/wikipedia_macbook_large.png 2000w" alt="" class="wikipedia-mockup-image">
+<img src="images/mockups/wikipedia_macbook_large.png" srcset="images/mockups/wikipedia_macbook_small.png 500w, images/mockups/wikipedia_macbook_medium.png 1000w, images/mockups/wikipedia_macbook_large.png 2000w" alt="Macbook mockup with a screeenshot of wikipedia fetcher project web application" class="wikipedia-mockup-image">
 </div>
 </div>
 </div>
@@ -259,8 +299,8 @@ If you are interested in starting a new project, collaboration or simply meet fo
 </div>
 <div class=getintouch-white-box>
 <div class=getintouch-arrow-wrap>
-<img src="icons/golden-arrow.svg" alt="" class=getintouch-arrow-image>
-<img src="icons/golden-arrow.svg" alt="" class=getintouch-arrowthick-image>
+<img src="icons/golden-arrow.svg" alt="Arrow pointing down" class=getintouch-arrow-image>
+<img src="icons/golden-arrow.svg" alt="Arrow pointing down" class=getintouch-arrowthick-image>
 </div>
 </div>
 </section>
@@ -289,7 +329,7 @@ Success!
 <div class=popup-whitebox>
 <div class=popup-whitebox-content data-popup-whitebox=success>
 <a href="" class=popup-x-wrap>
-<img src="icons/x.svg" alt="close this popup" class=x-image-wrap>
+<img src="icons/x.svg" alt="Click to close this popup" class=x-image-wrap>
 </a>
 </div>
 </div>
@@ -304,10 +344,10 @@ Success!
 <div class=below-form-wrap>
 <div class=social-icons-wrap>
 <a class=linkedin-wrap href="https://www.linkedin.com/in/maxcolesfrederiksen/" target=_blank>
-<img src="icons/linkedin.svg" alt="" class=linkedin-image>
+<img src="icons/linkedin.svg" alt="Click to go to Max Coles Frederiksens linkedin profile" class=linkedin-image>
 </a>
 <a class=github-wrap href="https://github.com/MaxColesFrederiksen" target=_blank>
-<img src="icons/github.svg" alt="" class=github-image>
+<img src="icons/github.svg" alt="Click to go to Max Coles Frederiksens github profile" class=github-image>
 </a>
 </div>
 <input type=submit value=Send class=submit-button></input>
@@ -332,7 +372,7 @@ max@colesmedia.se
 <section class=footer-s>
 <div class=footer-whitebox>
 <a class=footer-arrowhome-wrap href="#home">
-<img src="icons/golden-arrow.svg" alt="" class=arrowhome-image>
+<img src="icons/golden-arrow.svg" alt="Click to scroll to homepage" class=arrowhome-image>
 </a>
 </div>
 <div class=footer-content-wrap>
@@ -353,15 +393,15 @@ Copyright &copy; 2017 ColesMedia
 <div class=footer-portrait-social-wrap>
 <div class=footer-social-wrap>
 <a class=footer-linkedin-wrap href="https://www.linkedin.com/in/maxcolesfrederiksen/" target=_blank>
-<img src="icons/linkedin-white.svg" alt="" class=footer-linkedin-image>
+<img src="icons/linkedin-white.svg" alt="Click to go to Max Coles Frederiksens linkedin profile" class=footer-linkedin-image>
 </a>
 <a class=footer-github-wrap href="https://github.com/MaxColesFrederiksen" target=_blank>
-<img src="icons/github-white.svg" alt="" class=footer-github-image>
+<img src="icons/github-white.svg" alt="Click to go to Max Coles Frederiksens github profile" class=footer-github-image>
 </a>
 </div>
 <div class=footer-portrait-outer-wrap>
 <div class=footer-portrait-wrap>
-<img src="images/me/portrait_cropped_large.jpg" alt="" class="footer-portrait">	
+<img src="images/me/portrait_cropped_large.jpg" alt="Portrait of Max Coles Frederiksen" class="footer-portrait">	
 </div>
 </div>
 </div>
@@ -379,7 +419,7 @@ Prototype designs, compatible code & implementation of CMS. I’ll work on the p
 SERVICES
 </span>
 <div class=footer-arrow-wrap>
-<img src="icons/golden-arrow-small.svg" alt="" class=footer-arrow-image>
+<img src="icons/golden-arrow-small.svg" alt="Arrow pointing up" class=footer-arrow-image>
 </div>
 </div>
 </a>
@@ -396,7 +436,7 @@ Max Coles Frederiksen- web developer and designer from the south of Sweden.
 ABOUT
 </span>
 <div class=footer-arrow-wrap>
-<img src="icons/golden-arrow-small.svg" alt="" class=footer-arrow-image>
+<img src="icons/golden-arrow-small.svg" alt="Arrow pointing up" class=footer-arrow-image>
 </div>
 </div>
 </a>
@@ -413,7 +453,7 @@ Your vision and ideas is what brings the website to life, so a crucial part of m
 PROJECTS
 </span>
 <div class=footer-arrow-wrap>
-<img src="icons/golden-arrow-small.svg" alt="" class=footer-arrow-image>
+<img src="icons/golden-arrow-small.svg" alt="Arrow pointing up" class=footer-arrow-image>
 </div>
 </div>
 </a>
