@@ -3486,14 +3486,14 @@ html {
   h1.screen-warning-h1 {
     display: none; } }
 
-@includeiphone4 {
+@media only screen and (min-width: 320px) {
   body {
     padding-top: 60px; } }
 
-@includeipad {
+@media only screen and (min-width: 768px) {
   body {
     padding-top: 80px; } }
 
-@includedesktop {
+@media only screen and (min-width: 1024px) {
   body {
     padding-top: 100px; } }
