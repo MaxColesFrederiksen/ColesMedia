@@ -2713,9 +2713,15 @@ html {
             align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto; }
   li.footer-li-about, li.footer-li-projects {
-    margin-top: 10px; }
+    margin-top: 10px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto; }
   p.footer-p {
     font-family: 'Brandon Grotesque';
     font-size: 6px;
