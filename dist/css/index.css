@@ -1,6 +1,10 @@
 html {
   margin: 0;
   padding: 0;
+  -moz-text-size-adjust: 100%;
+  webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  overflow: auto;
 }
 
 a {
@@ -48,10 +52,9 @@ body {
   background: white;
   overflow: hidden;
 
+  margin: 0;
   padding: 0; }
 
-html {
-  overflow: auto; }
 
 @font-face {
   font-family: 'Brandon Grotesque';
