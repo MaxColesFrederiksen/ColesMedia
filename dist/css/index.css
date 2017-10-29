@@ -76,7 +76,8 @@ textarea {
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  font-family: 'Brandon Grotesque'; }
 
 h1, h2, h3, span, blockquote, input {
   font-family: 'BrandonGrotesque'; }
