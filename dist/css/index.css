@@ -778,7 +778,7 @@ html {
     background: #303030; }
   h1.name-h1 {
     width: 235px;
-    margin: 5px 0 5px 0;
+    margin: 0px 0 0px 0;
     font-size: 23px;
     text-align: right;
     font-weight: 500;
@@ -851,7 +851,7 @@ html {
     width: 25px; }
   h1.name-h1 {
     width: 255px;
-    margin: 5px 0 5px 0;
+    margin: 0px 0 0px 0;
     font-size: 25px;
     text-align: right;
     font-weight: 500;
@@ -893,7 +893,7 @@ html {
     right: 190px; }
   h1.name-h1 {
     width: 515px;
-    margin: 5px 0 5px 0;
+    margin: 0px 0 0px 0;
     font-size: 50px;
     text-align: right;
     font-weight: 500;
@@ -935,7 +935,7 @@ html {
     right: 250px; }
   h1.name-h1 {
     width: 710px;
-    margin: 5px 0 5px 0;
+    margin: 0px 0 0px 0;
     font-weight: 500;
     font-size: 70px; }
   .slogan-wrap {
@@ -972,7 +972,7 @@ html {
     right: 225px; }
   h1.name-h1 {
     width: 810px;
-    margin: 5px 0 5px 0;
+    margin: 0px 0 0px 0;
     font-size: 80px; }
   .slogan-wrap {
     margin-top: 190px;
@@ -2231,7 +2231,7 @@ html {
     font-size: 16px;
     font-weight: 400;
     color: white;
-    margin: 8px 0 8px 0;
+    margin: 5px 0 5px 0;
     text-align: center; }
   p.getintouch-p {
     font-family: 'Brandon Grotesque' !important;
