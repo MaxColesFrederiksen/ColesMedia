@@ -29,9 +29,7 @@ input::-moz-focus-inner {
 
 input {
   line-height: normal; }
-h1 {
-  margin: 0;
-}
+
 
 * {
   -webkit-box-sizing: border-box;
