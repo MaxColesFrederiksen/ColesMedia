@@ -3,13 +3,16 @@ html {
   padding: 0;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  overflow: auto; }
+  overflow: auto; 
+  background: white;
+  }
 
 body {
   margin: 0;
   padding: 0;
   background: white;
-  overflow: hidden; }
+  overflow: hidden; 
+  -webkit-transform: translate3d(0, 0, 0);}
 
 aside,
 footer,
