@@ -181,7 +181,7 @@ a {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   overflow: auto; 
-  background: white;
+  background: white;  
   }
 
 body {
@@ -1344,7 +1344,8 @@ body {
 @media only screen and (min-width: 375px) {
   .bg-box-design, .bg-box-code {
     width: 277px;
-    height: 180px; }
+    height: 180px;
+    background: #FBFBFB; }
   .code-p, .design-p {
     font-size: 10px;
     width: 135px; }
@@ -1372,7 +1373,8 @@ body {
 @media only screen and (min-width: 414px) {
   .bg-box-design, .bg-box-code {
     width: 336px;
-    height: 200px; }
+    height: 200px;
+    background: #FBFBFB; }
   .code-content {
     width: 336px;
     height: 186px;
@@ -1424,7 +1426,8 @@ body {
     padding: 40px 0 40px 0; }
   .bg-box-design, .bg-box-code {
     width: 550px;
-    height: 322px; }
+    height: 322px;
+    background: #FBFBFB; }
   .code-content {
     width: 550px;
     height: 322px;
@@ -1478,7 +1481,8 @@ body {
     padding: 60px 0 60px 0; }
   .bg-box-design, .bg-box-code {
     width: 735px;
-    height: 430px; }
+    height: 430px;
+    background: #FBFBFB; }
   .code-content {
     width: 735px;
     height: 430px;
@@ -1535,7 +1539,8 @@ body {
     padding: 60px 0 60px 0; }
   .bg-box-design, .bg-box-code {
     width: 842px;
-    height: 508px; }
+    height: 508px;
+    background: #FBFBFB; }
   .code-content {
     width: 842px;
     height: 508px;
