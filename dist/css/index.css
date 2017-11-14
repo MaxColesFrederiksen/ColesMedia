@@ -1258,7 +1258,8 @@ body {
     position: relative;
     margin: 30px auto 30px auto;
     padding: 45px 0 40px 15px;
-    text-align: left; }
+    text-align: left; 
+    z-index: 5;}
   .code-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1278,7 +1279,8 @@ body {
     position: relative;
     margin: 30px auto 30px auto;
     padding: 45px 10px 40px 0;
-    text-align: left; }
+    text-align: left;
+    z-index: 5; }
   .design-image-wrap {
     position: absolute;
     top: 15px;
