@@ -10,8 +10,8 @@ html {
   }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   background: white;
   overflow: hidden; 
   }
@@ -56,7 +56,7 @@ select {
   text-transform: none; }
 
 button,
-html, input[type="button"],
+ input[type="button"],
 input[type="reset"] {
   -webkit-appearance: button;
   cursor: pointer; }
@@ -190,6 +190,7 @@ a {
 
 body {
   margin: 0;
+  padding: 0px;
   background: white;
   overflow: hidden; 
   }
@@ -637,7 +638,7 @@ body {
 @media only screen and (min-width: 768px) {
   nav {
     width: 616px;
-    margin: -80px auto 0 auto; }
+    margin: -85px auto 0 auto; }
   .logo-wrap {
     width: 230px;
     display: inline-block;
@@ -979,7 +980,7 @@ body {
     display: none; }
   .name-box-wrap {
     width: 840px;
-    height: 94px;
+    height: 102px;
     left: -50px;
     top: 80px; }
   .white-box-wrap-hero {
@@ -1081,9 +1082,11 @@ body {
   section.quote-s {
     max-width: 100%;
     margin-left: 22px;
-    padding: 40px 0 40px 0;
+    padding: 40px 0 100px 0;
     position: relative; }
   .quote-wrap {
+    height: 100%;
+
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1097,26 +1100,32 @@ body {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start; }
+  .line-break {
+    margin-top: 20px;
+
+    width: 20px;
+    height: 1px;
+    background: grey;
+  }
   .blockquote-wrap {
     width: 235px;
+    height: 50px;
     margin: 0 auto; }
   .quote-icon-wrap {
-    display: inline-block;
-    margin-right: 10px;
     width: 17px;
     opacity: 0; }
   .quote-icon-image {
     width: 17px; }
   blockquote.quote {
-    display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 300;
     font-style: italic;
     color: #303030;
     height: 36px;
-    margin: -1px 0 5px 0;
+    margin: -1px 0 5px 10px;
     opacity: 0; }
   .quoter-wrap {
+    margin-top: 50px;
     margin-left: 26px;
     opacity: 0; }
   .quoter-person {
@@ -1127,21 +1136,28 @@ body {
     margin: 0; }
   .quoter-company {
     font-size: 9px;
-    font-weight: 200;
-    color: #A6A6A6;
+    font-weight: 300;
+    color: #a2a2a2;
     margin: 0; } }
 
 @media only screen and (min-width: 375px) {
   blockquote.quote {
-    font-size: 20px;
-    margin: -1px 0 15px 0; }
+    font-size: 16px;
+    margin: -1px 0 15px 10px; }
+  .line-break {
+    width: 20px;
+    height: 1px;
+    background: grey;
+  }
   .blockquote-wrap {
-    width: 285px; }
+    width: 285px;
+    height: 80px; }
   .quote-icon-wrap {
     width: 20px; }
   .quote-icon-image {
     width: 20px; }
   .quoter-wrap {
+     margin-top: 50px;
     margin-left: 30px; }
   .quoter-person, .quoter-company {
     font-size: 10px; } }
@@ -1154,45 +1170,84 @@ body {
   section.quote-s {
     max-width: 100%;
     margin-left: -20px;
-    padding: 100px 0 100px 0;
+    padding: 120px 0 180px 0;
     position: relative; }
   blockquote.quote {
-    font-size: 35px;
-    margin: -1px 0 15px 0;
+    font-size: 26px;
+    margin: -1px 0 15px 25px;
     height: 90px; }
   .blockquote-wrap {
+    height: 150px;
     width: 550px; }
   .quote-icon-wrap {
     width: 32px;
-    margin-right: 25px; }
+    }
   .quote-icon-image {
     width: 32px; }
+  .line-break {
+    width: 40px;
+    height: 2px;
+    margin: 10px 0 10px 0;
+    }
   .quoter-wrap {
-    margin-left: 55px; }
+    margin-top: 60px;
+    margin-left: 58px; }
   .quoter-person, .quoter-company {
     margin-bottom: 5px;
     font-size: 18px; } }
+  /*ipad landscape and portrait media query*/
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : portrait) {
+
+
+    blockquote.quote {
+    font-size: 26px;
+    margin: -1px 0 15px 50px;
+    height: 90px; }
+    
+
+  }
+
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : landscape)
+  and (-webkit-min-device-pixel-ratio: 2)  { 
+
+    .quote-icon-wrap {
+    width: 32px;
+    margin-right: 28px;
+    }
+}
+
+  
 
 @media only screen and (min-width: 1024px) {
   section.quote-s {
     max-width: 100%;
     margin-left: -95px;
-    padding: 100px 0 100px 0;
+    padding: 150px 0 240px 0;
     position: relative; }
   blockquote.quote {
-    font-size: 40px;
-    margin: -10px 0 45px 0;
+    font-size: 30px;
+    margin: -10px 0 45px 25px;
     height: 90px;
-    line-height: 57px; }
+    line-height: 52px; }
   .blockquote-wrap {
+    height: 220px;
     width: 550px; }
   .quote-icon-wrap {
     width: 37px;
-    margin-right: 25px; }
+     }
   .quote-icon-image {
     width: 37px; }
+    .line-break {
+      margin: 15px 0 15px 0;
+    }
   .quoter-wrap {
-    margin-left: 55px; }
+    margin-left: 60px; }
   .quoter-person, .quoter-company {
     margin-bottom: 5px;
     font-size: 20px; } }
@@ -1201,22 +1256,23 @@ body {
   section.quote-s {
     max-width: 100%;
     margin-left: -95px;
-    padding: 100px 0 100px 0;
+    padding: 200px 0 230px 0;
     position: relative; }
   blockquote.quote {
-    font-size: 45px;
-    margin: -15px 0 95px 0;
+    font-size: 38px;
+    margin: -15px 0 95px 30px;
     height: 90px;
-    line-height: 78px; }
+    line-height: 68px; }
   .blockquote-wrap {
+    height: 300px;
     width: 700px; }
   .quote-icon-wrap {
     width: 42px;
-    margin-right: 25px; }
+   }
   .quote-icon-image {
     width: 42px; }
   .quoter-wrap {
-    margin-left: 75px; }
+    margin-left: 68px; }
   .quoter-person, .quoter-company {
     margin-bottom: 5px;
     font-size: 22px; } }
@@ -2424,15 +2480,15 @@ body {
     padding: 40px 0 40px 0;
     position: relative; }
   .contact-content-wrap {
-    width: 110px;
+    width: 130px;
     margin: 0 auto; }
   input.input-name, input.input-email {
     -webkit-appearance: none;
     width: 100%;
-    height: 16px;
-    font-size: 6px;
+    height: 18px;
+    font-size: 7px;
     color: #303030;
-    font-weight: 200;
+    font-weight: 400;
     outline: #303030;
     border: solid 1px #C4C4C4;
     border-radius: 0px;
@@ -2441,11 +2497,11 @@ body {
   textarea.textarea-message {
     -webkit-appearance: none;
     width: 100%;
-    height: 50px;
+    height: 60px;
     font-family: 'Brandon Grotesque';
     font-size: 6px;
     color: #303030;
-    font-weight: 200;
+    font-weight: 400;
     outline: #303030;
     border: solid 1px #C4C4C4;
     border-radius: 0px;
@@ -2625,11 +2681,13 @@ body {
   input.input-name, input.input-email {
     width: 100%;
     height: 30px;
+    font-weight: 300;
     font-size: 12px;
     text-indent: 5px; }
   textarea.textarea-message {
+    font-weight: 300;
     width: 100%;
-    height: 90px;
+    height: 500px;
     font-size: 12px;
     padding-top: 5px;
     text-indent: 4px; }
@@ -2675,7 +2733,7 @@ body {
     margin: 15px 0 0px 0; }
   textarea.textarea-message {
     width: 100%;
-    height: 135px;
+    height: 150px;
     font-size: 14px;
     padding-top: 5px;
     text-indent: 5px;
@@ -2722,7 +2780,7 @@ body {
     margin: 15px 0 0px 0; }
   textarea.textarea-message {
     width: 100%;
-    height: 130px;
+    height: 180px;
     font-size: 16px;
     padding-top: 8px;
     text-indent: 6px;
@@ -2736,7 +2794,7 @@ body {
 
 @media only screen and (min-width: 320px) {
   section.footer-s {
-    height: 280px;
+    height: 320px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2828,9 +2886,9 @@ body {
             flex: 1 0 auto; }
   p.footer-p {
     font-family: 'Brandon Grotesque';
-    font-size: 6px;
-    font-weight: 200;
-    line-height: 8px;
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 10px;
     text-align: left;
     color: #BFBFBF; }
   a.footer-link-wrap {
@@ -2850,7 +2908,7 @@ body {
   .footer-link {
     width: auto; }
   span.footer-link-span {
-    font-size: 8px;
+    font-size: 9px;
     font-weight: 300;
     color: #9B8F78; }
   .footer-arrow-wrap {
@@ -2883,7 +2941,7 @@ body {
   a.footer-email-wrap, a.footer-phone-wrap {
     display: block;
     text-align: center;
-    height: 15px;
+    height: 18px;
     width: 100%;
     background: #9B8F78;
     margin: 5px 0 5px 0;
@@ -2891,13 +2949,13 @@ body {
   a.footer-email-wrap > span, a.footer-phone-wrap > span {
     display: block;
     font-size: 8px;
-    font-weight: 300;
+    font-weight: 400;
     color: #DDDDDD;
     height: 100%; }
   .footer-copyright-wrap {
     text-align: center; }
   h3.copyright-h3 {
-    font-size: 6px;
+    font-size: 7px;
     font-weight: 300;
     line-height: 8px;
     color: #9B8F78; }
@@ -2924,10 +2982,10 @@ body {
   .footer-portrait-wrap {
     overflow: hidden;
     border-radius: 100%;
-    width: 45px;
-    height: 45px; }
+    width: 50px;
+    height: 50px; }
   .footer-portrait-image {
-    width: 45px; } }
+    width: 50px; } }
 
 @media only screen and (min-width: 768px) {
   section.footer-s {
@@ -2987,12 +3045,14 @@ body {
   .footer-contact-wrap {
     width: 100%; }
   a.footer-email-wrap, a.footer-phone-wrap {
-    height: 20px;
+    height: 25px;
     width: 100%;
+
     margin: 10px 0 10px 0;
     padding-top: 4px; }
   a.footer-email-wrap > span, a.footer-phone-wrap > span {
     font-size: 12px;
+    font-weight: 300;
     height: 100%; }
   h3.copyright-h3 {
     font-size: 9px;
@@ -3065,7 +3125,7 @@ body {
   .footer-contact-wrap {
     width: 100%; }
   a.footer-email-wrap, a.footer-phone-wrap {
-    height: 30px;
+    height: 35px;
     width: 100%;
     margin: 15px 0 15px 0;
     padding-top: 6px; }
@@ -3143,7 +3203,7 @@ body {
   .footer-contact-wrap {
     width: 100%; }
   a.footer-email-wrap, a.footer-phone-wrap {
-    height: 35px;
+    height: 40px;
     width: 100%;
     margin: 25px 0 25px 0;
     padding-top: 8px; }
@@ -3182,7 +3242,8 @@ body {
     top: 100px;
     bottom: 0;
     width: 240px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    filter: blur(0px); }
   .popup-content-wrap {
     position: relative;
     width: 0%;
@@ -3528,10 +3589,10 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 60px 0 0 0;
   background: white;
   overflow: hidden; 
-  padding-top: 60px; } }
+ } }
 
 @media only screen and (min-width: 768px) {
  html {
@@ -3545,10 +3606,10 @@ body {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 80px 0 0 0;
   background: white;
   overflow: hidden; 
-  padding-top: 80px; } }
+   } }
 
 @media only screen and (min-width: 1024px) {
 html {
@@ -3562,10 +3623,10 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 100px 0 0 0;
   background: white;
   overflow: hidden; 
-  padding-top: 100px; } }
+   } }
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -3575,8 +3636,11 @@ only screen and (min-device-pixel-ratio: 1.5){
 
   html,
   body{
-    width:100%;
-    overflow-x:hidden;
+    width: 100%;
+    overflow-x: hidden;
   }
-
-}
+/*  
+  *{
+    background:#000 !important;
+    color:#0f0 !important;
+    outline: solid #f00 1px !important;}*/
