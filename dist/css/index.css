@@ -3667,6 +3667,9 @@ only screen and (min-device-pixel-ratio: 1.5){
     color: #303030 !important;
     
   }
+.arrow-wrap-hero {
+    cursor: pointer;
+   }
 /*  
   *{
     background:#000 !important;
