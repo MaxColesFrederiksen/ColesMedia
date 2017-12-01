@@ -847,7 +847,8 @@ body {
     bottom: 5px;
     right: 52.5px;
     margin: 6px auto 0 auto;
-    opacity: 0; } }
+    opacity: 0;
+    cursor: pointer;} }
 
 @media only screen and (min-width: 375px) {
   .big-box-wrap {
