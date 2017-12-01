@@ -106,10 +106,10 @@ a {
   text-decoration: none; }
 
 .inline-github-link,
-  .inline-github-link:visited,
-  .inline-github-link:active,
-  .inline-github-link:focused,
-  .inline-github-link:link,{
+.inline-github-link:visited,
+.inline-github-link:active,
+.inline-github-link:focused,
+.inline-github-link:link {
     text-decoration: underline !important;
     color: #303030 !important;
     
@@ -3649,6 +3649,16 @@ only screen and (min-device-pixel-ratio: 1.5){
   body{
     width: 100%;
     overflow-x: hidden;
+  }
+  
+.inline-github-link,
+.inline-github-link:visited,
+.inline-github-link:active,
+.inline-github-link:focused,
+.inline-github-link:link {
+    text-decoration: underline !important;
+    color: #303030 !important;
+    
   }
 /*  
   *{
