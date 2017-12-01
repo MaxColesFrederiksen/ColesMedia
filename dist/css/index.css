@@ -182,7 +182,8 @@ a {
   .inline-github-link,
   .inline-github-link:visited,
   .inline-github-link:active,
-  .inline-github-link:focused,{
+  .inline-github-link:focused,
+  .inline-github-link:link,{
     text-decoration: underline;
     color: #303030;
     
