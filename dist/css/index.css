@@ -2004,7 +2004,7 @@ body {
     top: 25px;
     left: -35px; }
   .wikipedia-text-wrap {
-    margin: 0 0 0 10px; }
+    margin: 0 0 -30px 10px; }
   h2.wikipedia-h2 {
     font-size: 14px;
     font-weight: 300;
@@ -2034,7 +2034,7 @@ body {
   .xkout-text-wrap {
     margin: 0 0 0 -10px; }
   .wikipedia-text-wrap {
-    margin: 0 0 0 -10px; }
+    margin: 0 0 -40px -10px; }
   .wikipedia-mockup-wrap {
     width: 210px;
     top: 15px;
@@ -2066,7 +2066,7 @@ body {
   .xkout-text-wrap {
     margin: 0 0 0 -10px; }
   .wikipedia-text-wrap {
-    margin: 0 0 0 -10px; }
+    margin: 0 0 -50px -10px; }
   .wikipedia-mockup-wrap {
     width: 210px;
     top: 15px;
@@ -2102,7 +2102,7 @@ body {
   .xkout-text-wrap {
     margin: 0 0 0 -80px; }
   .wikipedia-text-wrap {
-    margin: 0 0 0 -80px; }
+    margin: 0 0 -50px -80px; }
   .wikipedia-mockup-wrap {
     width: 340px;
     top: 30px;
@@ -2168,7 +2168,7 @@ body {
   .xkout-text-wrap {
     margin: 0 0 0 -180px; }
   .wikipedia-text-wrap {
-    margin: 0 0 40px -180px; }
+    margin: 0 0 -50px -180px; }
   .wikipedia-mockup-wrap {
     width: 485px;
     top: 30px;
@@ -2236,7 +2236,7 @@ body {
   .xkout-text-wrap {
     margin: 0 0 50px -300px; }
   .wikipedia-text-wrap {
-    margin: 0 0 80px -300px; }
+    margin: 0 0 20px -300px; }
   .wikipedia-mockup-wrap {
     width: 720px;
     top: 50px;
@@ -2258,7 +2258,7 @@ body {
     font-size: 28px;
     width: 390px;
     line-height: 40px;
-    margin: 0 0 0px; }
+    margin: 0 0 20px 0; }
   h2.xkout-h2 {
     font-size: 40px;
     margin: 0px 0 15px 0; }
