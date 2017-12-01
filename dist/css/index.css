@@ -114,6 +114,10 @@ a {
     color: #303030 !important;
     
   }
+.inline-github-link {
+  text-decoration: underline !important;
+  color: #303030 !important;
+}
 
 
 @font-face {
