@@ -834,7 +834,8 @@ body {
     height: 35px;
     position: absolute;
     bottom: -35px;
-    right: 45px; }
+    right: 45px;
+    cursor: pointer;}
   .white-box-hero {
     width: 100%;
     height: 100%;
@@ -848,7 +849,7 @@ body {
     right: 52.5px;
     margin: 6px auto 0 auto;
     opacity: 0;
-    cursor: pointer;} }
+    } }
 
 @media only screen and (min-width: 375px) {
   .big-box-wrap {
