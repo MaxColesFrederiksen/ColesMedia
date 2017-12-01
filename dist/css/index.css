@@ -2170,7 +2170,7 @@ body {
   .xkout-text-wrap {
     margin: 0 0 0 -180px; }
   .wikipedia-text-wrap {
-    margin: 0 0 -50px -180px; }
+    margin: 0 0 0px -180px; }
   .wikipedia-mockup-wrap {
     width: 485px;
     top: 30px;
@@ -2238,7 +2238,7 @@ body {
   .xkout-text-wrap {
     margin: 0 0 50px -300px; }
   .wikipedia-text-wrap {
-    margin: 0 0 20px -300px; }
+    margin: 0 0 -10px -300px; }
   .wikipedia-mockup-wrap {
     width: 720px;
     top: 50px;
