@@ -2538,6 +2538,8 @@ body {
     border-radius: 0px;
     margin: 5px 0 5px 0;
     padding-top: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
     text-indent: 1px;
     resize: none; }
   form.contact-form {
@@ -3683,8 +3685,3 @@ only screen and (min-device-pixel-ratio: 1.5){
 .arrow-wrap-hero {
     cursor: pointer;
    }
-/*  
-  *{
-    background:#000 !important;
-    color:#0f0 !important;
-    outline: solid #f00 1px !important;}*/
