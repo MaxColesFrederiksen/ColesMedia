@@ -1045,7 +1045,7 @@ body {
     font-weight: 300;
     font-style: italic;
     color: #303030;
-    height: 36px;
+    height: auto;
     margin: -1px 0 5px 0;
     opacity: 0; }
   .quoter-wrap {
@@ -1093,7 +1093,7 @@ body {
     width: 100%;
     font-size: 35px;
     margin: -1px 0 15px 0;
-    height: 90px; }
+    height: auto; }
   .blockquote-wrap {
     width: 550px; }
   .quote-icon-wrap {
@@ -1142,7 +1142,7 @@ body {
     width: 100%;
     font-size: 45px;
     margin: -15px 0 95px 0;
-    height: 90px;
+    height: auto;
     line-height: 78px; }
   .blockquote-wrap {
     width: 700px; }
