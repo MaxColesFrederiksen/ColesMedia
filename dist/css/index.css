@@ -1117,7 +1117,7 @@ body {
     width: 100%;
     font-size: 40px;
     margin: -10px 0 45px 0;
-    height: 90px;
+    height: auto;
     line-height: 57px; }
   .blockquote-wrap {
     width: 550px; }
