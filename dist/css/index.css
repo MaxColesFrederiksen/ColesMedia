@@ -1014,6 +1014,7 @@ body {
     padding: 40px 0 40px 0;
     position: relative; }
   .quote-wrap {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1038,6 +1039,7 @@ body {
   .quote-icon-image {
     width: 17px; }
   blockquote.quote {
+    width: 100%;
     display: inline-block;
     font-size: 16px;
     font-weight: 300;
@@ -1063,6 +1065,7 @@ body {
 
 @media only screen and (min-width: 375px) {
   blockquote.quote {
+    width: 100%;
     font-size: 20px;
     margin: -1px 0 15px 0; }
   .blockquote-wrap {
@@ -1087,6 +1090,7 @@ body {
     padding: 100px 0 100px 0;
     position: relative; }
   blockquote.quote {
+    width: 100%;
     font-size: 35px;
     margin: -1px 0 15px 0;
     height: 90px; }
@@ -1110,6 +1114,7 @@ body {
     padding: 100px 0 100px 0;
     position: relative; }
   blockquote.quote {
+    width: 100%;
     font-size: 40px;
     margin: -10px 0 45px 0;
     height: 90px;
@@ -1134,6 +1139,7 @@ body {
     padding: 100px 0 100px 0;
     position: relative; }
   blockquote.quote {
+    width: 100%;
     font-size: 45px;
     margin: -15px 0 95px 0;
     height: 90px;
