@@ -1,0 +1,31 @@
+{
+	"projects": [
+		{
+			"id": 1,
+			"title": "XKOUT BIOSCIENCE" ,
+			"content": "Combining playful with professional made this design special. I always strive for simplicity with every project. This one-page layout and lively color scheme turned out successfull for the startup “xkout-bioscience”.",
+			"src": "images/xkout-2x-1600-large.png",
+			"srcset": "images/xkout-2x-400-small.png 400w, images/xkout-2x-800-medium.png 800w, images/xkout-2x-1600-large.png 1600w",
+			"href": "http://xkout-bioscience.com/",
+			"bgColor": "#00de76"
+		},
+		{
+			"id": 2,
+			"title": "FINDISTRA" ,
+			"content": "Finance, strategy, and digitalization symbolize this website. Everything from the logo, design and news feed was created by Colesmedia. My hope is to showcase what can be achieved with strong communication and cooperation. ",
+			"src": "images/findistra-2x-1600-large.png",
+			"srcset": "images/findistra-2x-400-small.png 400w, images/findistra-2x-800-medium.png 800w, images/findistra-2x-1600-large.png 1600w",
+			"href": "https://findistra.se",
+			"bgColor": "#ffc108"
+		},
+		{
+			"id": 3,
+			"title": "PERSONAL PROJECTS" ,
+			"content": "In my spare time, I love creating simple web applications. These types of projects help me stay curious and driven. They teach me new ways of thinking about project planning, UX/design, and programming. Github is the main platform where I showcase my personal projects, including this website.",
+			"src": "images/github-2x-1600-large.png",
+			"srcset": "images/github-2x-400-small.png 400w, images/github-2x-800-medium.png 800w, images/github-2x-1600-large.png 1600w",
+			"href": "https://github.com/MaxColesFrederiksen",
+			"bgColor": "#dbdbdb"
+		}
+	]
+}
