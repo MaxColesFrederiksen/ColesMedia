@@ -1015,10 +1015,63 @@ body {
 
 @media only screen and (min-width: 320px) {
   section.quote-s {
-    max-width: 100%;
-    margin-left: 22px;
+    max-width: 235px;
+    margin: 0 auto;
     padding: 40px 0 40px 0;
     position: relative; }
+  .slider-arrow-next,
+  .slider-arrow-prev {
+    background-image: url("../../../icons/slider-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block; }
+  .slider-dots {
+    list-style-type: none;
+    padding: 0;
+    max-width: 100px;
+    margin: 20px auto 0 auto; }
+  .slider-dots > li {
+    display: inline-block;
+    width: 50%;
+    text-align: center; }
+  .slider-dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    outline: none;
+    background-color: #303030;
+    border-radius: 100%;
+    border: 0 solid transparent;
+    padding: 0;
+    opacity: .5; }
+  .slider-dot[aria-selected="true"] {
+    opacity: 1; }
+  .slider-arrow-prev {
+    -webkit-transform: rotateZ(180deg);
+            transform: rotateZ(180deg); }
+  .slick-next {
+    position: absolute;
+    top: 40%;
+    right: -17%;
+    bottom: 0;
+    border: 0 transparent solid;
+    background-color: transparent; }
+  .slick-prev {
+    border: 0 transparent solid;
+    background-color: transparent;
+    position: absolute;
+    top: 40%;
+    left: -15%;
+    bottom: 0; }
+  .slick-next,
+  .slick-prev,
+  .slick-arrow {
+    width: 45px;
+    height: 45px;
+    padding: 0; }
   .quote-wrap {
     width: 100%;
     display: -webkit-box;
@@ -1036,7 +1089,7 @@ body {
             align-items: flex-start; }
   .blockquote-wrap {
     width: 235px;
-    margin: 0 auto; }
+    margin: 0 30px; }
   .quote-icon-wrap {
     display: inline-block;
     margin-right: 10px;
@@ -1047,9 +1100,10 @@ body {
   blockquote.quote {
     width: 100%;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     font-style: italic;
+    line-height: 30px;
     color: #303030;
     height: auto;
     margin: -1px 0 5px 0;
@@ -1070,10 +1124,25 @@ body {
     margin: 0; } }
 
 @media only screen and (min-width: 375px) {
+  section.quote-s {
+    max-width: 300px; }
   blockquote.quote {
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 30px;
     margin: -1px 0 15px 0; }
+  .slick-next {
+    position: absolute;
+    top: 40%;
+    right: -12%;
+    bottom: 0;
+    border: 0 transparent solid; }
+  .slick-prev {
+    position: absolute;
+    top: 40%;
+    left: -12%;
+    bottom: 0;
+    border: 0 transparent solid; }
   .blockquote-wrap {
     width: 285px; }
   .quote-icon-wrap {
@@ -1086,20 +1155,55 @@ body {
     font-size: 10px; } }
 
 @media only screen and (min-width: 414px) {
+  .quote-s {
+    max-width: 300px; }
+  .slick-next {
+    position: absolute;
+    top: 40%;
+    right: -18%;
+    bottom: 0; }
+  .slick-prev {
+    position: absolute;
+    top: 40%;
+    left: -16%;
+    bottom: 0; }
+  .slider-arrow-prev,
+  .slider-arrow-next {
+    width: 25px;
+    height: 25px; }
   .blockquote-wrap {
     width: 300px; } }
 
 @media only screen and (min-width: 768px) {
   section.quote-s {
-    max-width: 100%;
-    margin-left: -20px;
+    max-width: 600px;
+    margin: 0 auto;
     padding: 100px 0 100px 0;
     position: relative; }
   blockquote.quote {
     width: 100%;
-    font-size: 35px;
+    font-size: 28px;
+    line-height: 50px;
     margin: -1px 0 15px 0;
     height: auto; }
+  .slick-next {
+    position: absolute;
+    top: 40%;
+    right: -10%;
+    bottom: 0;
+    width: 55px;
+    height: 55px; }
+  .slick-prev {
+    position: absolute;
+    top: 40%;
+    left: -10%;
+    bottom: 0;
+    width: 55px;
+    height: 55px; }
+  .slider-arrow-prev,
+  .slider-arrow-next {
+    width: 35px;
+    height: 35px; }
   .blockquote-wrap {
     width: 550px; }
   .quote-icon-wrap {
@@ -1115,14 +1219,14 @@ body {
 
 @media only screen and (min-width: 1024px) {
   section.quote-s {
-    max-width: 100%;
-    margin-left: -95px;
+    margin: 0 auto;
+    max-width: 670px;
     padding: 100px 0 100px 0;
     position: relative; }
   blockquote.quote {
     width: 100%;
-    font-size: 40px;
-    margin: -10px 0 45px 0;
+    font-size: 30px;
+    margin: -10px 0 30px 0;
     height: auto;
     line-height: 57px; }
   .blockquote-wrap {
@@ -1140,18 +1244,18 @@ body {
 
 @media only screen and (min-width: 1440px) {
   section.quote-s {
-    max-width: 100%;
-    margin-left: -95px;
+    margin: 0 auto;
+    max-width: 850px;
     padding: 100px 0 100px 0;
     position: relative; }
   blockquote.quote {
     width: 100%;
-    font-size: 45px;
-    margin: -15px 0 95px 0;
+    font-size: 34px;
+    margin: -15px 0 30px 0;
     height: auto;
     line-height: 78px; }
   .blockquote-wrap {
-    width: 700px; }
+    width: 800px; }
   .quote-icon-wrap {
     width: 42px;
     margin-right: 25px; }
