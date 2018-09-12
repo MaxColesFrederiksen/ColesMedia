@@ -2,21 +2,30 @@
 	"projects": [
 		{
 			"id": 1,
-			"title": "XKOUT BIOSCIENCE" ,
-			"content": "Combining playful with professional made this design special. I always strive for simplicity with every project. This one-page layout and lively color scheme turned out successfull for the startup “xkout-bioscience”.",
-			"src": "https://res.cloudinary.com/dpehzqvvx/image/upload/v1524740894/colesmedia.se/xkout-2x-1600-large.png",
-			"srcset": "https://res.cloudinary.com/dpehzqvvx/image/upload/v1524740893/colesmedia.se/xkout-2x-400-small.png 400w, https://res.cloudinary.com/dpehzqvvx/image/upload/v1524740893/colesmedia.se/xkout-2x-800-medium.png 800w, https://res.cloudinary.com/dpehzqvvx/image/upload/v1524740894/colesmedia.se/xkout-2x-1600-large.png 1600w",
-			"href": "https://xkout-bioscience.com/",
-			"bgColor": "#00de76"
-		},
-		{
-			"id": 2,
 			"title": "FINDISTRA" ,
 			"content": "Finance, strategy, and digitalization symbolize this website. Everything from the logo, design and news feed was created by Colesmedia. My hope is to showcase what can be achieved with strong communication and cooperation. ",
 			"src": "https://res.cloudinary.com/dpehzqvvx/image/upload/v1524740893/colesmedia.se/findistra-2x-1600-large.png",
 			"srcset": "https://res.cloudinary.com/dpehzqvvx/image/upload/v1524740892/colesmedia.se/findistra-2x-400-small.png 400w, https://res.cloudinary.com/dpehzqvvx/image/upload/v1524740893/colesmedia.se/findistra-2x-800-medium.png 800w, https://res.cloudinary.com/dpehzqvvx/image/upload/v1524740893/colesmedia.se/findistra-2x-1600-large.png 1600w",
 			"href": "https://findistra.se",
 			"bgColor": "#ffc108"
+		},
+		{
+			"id": 2,
+			"title": "ERIKSLUST TRAFIKSKOLA" ,
+			"content": "A simple, yet highly customizable website. This site uses Wordpress as their CMS Backend to create and update products and prices. Making it easy for the driver instructors at 'Erikslust Trafikskola' to make their own changes to the website. ",
+			"src": "http://res.cloudinary.com/dpehzqvvx/image/upload/v1536753039/colesmedia.se/erikslust-2x-1600-large.png",
+			"srcset": "http://res.cloudinary.com/dpehzqvvx/image/upload/v1536753038/colesmedia.se/erikslust-2x-400-small.png 400w, http://res.cloudinary.com/dpehzqvvx/image/upload/v1536753038/colesmedia.se/erikslust-2x-800-medium.png 800w, http://res.cloudinary.com/dpehzqvvx/image/upload/v1536753039/colesmedia.se/erikslust-2x-1600-large.png 1600w",
+			"href": "https://erikslust.se",
+			"bgColor": "#0F284B"
+		},
+		{
+			"id": 3,
+			"title": "XKOUT BIOSCIENCE" ,
+			"content": "Combining playful with professional made this design special. I always strive for simplicity with every project. This one-page layout and lively color scheme turned out successfull for the startup “xkout-bioscience”.",
+			"src": "https://res.cloudinary.com/dpehzqvvx/image/upload/v1524740894/colesmedia.se/xkout-2x-1600-large.png",
+			"srcset": "https://res.cloudinary.com/dpehzqvvx/image/upload/v1524740893/colesmedia.se/xkout-2x-400-small.png 400w, https://res.cloudinary.com/dpehzqvvx/image/upload/v1524740893/colesmedia.se/xkout-2x-800-medium.png 800w, https://res.cloudinary.com/dpehzqvvx/image/upload/v1524740894/colesmedia.se/xkout-2x-1600-large.png 1600w",
+			"href": "http://xkout-bioscience.com/",
+			"bgColor": "#00de76"
 		},
 		{
 			"id": 3,
